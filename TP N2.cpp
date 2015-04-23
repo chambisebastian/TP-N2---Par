@@ -5,17 +5,20 @@ Autor: Sebastian Matias Chambi
 */
  
 #include <iostream>
+#include <conio.h>
 
+using namespace std;
 int main() {
 	int numero;
-	std::cout << "Ingrese un numero entero: ";
-	std::cin >> num;
+	cout << "Ingrese un numero entero: ";
+	cin >> num;
 	if ((numero%2)==0)
 	{
-		std::cout << "\nEl numero ingresado es par";
+		cout << "\nEl numero ingresado es par";
 	}
 	else
 	{
-		std::cout << "\nEl numero ingresado es impar";
+		cout << "\nEl numero ingresado es impar";
 	}
+	getch();
 }
