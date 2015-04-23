@@ -1,0 +1,2 @@
+Ingrese un numero entero: 2
+El numero ingresado es par
