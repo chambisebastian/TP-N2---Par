@@ -11,7 +11,7 @@ using namespace std;
 int main() {
 	int numero;
 	cout << "Ingrese un numero entero: ";
-	cin >> num;
+	cin >> numero;
 	if ((numero%2)==0)
 	{
 		cout << "\nEl numero ingresado es par";
